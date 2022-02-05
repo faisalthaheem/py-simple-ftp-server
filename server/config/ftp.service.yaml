@@ -1,0 +1,11 @@
+dev:
+  accounts:
+    - username: "backups"
+      password: "backups"
+      upload-path: './storage-backups'
+
+prod:
+  accounts:
+    - username: "backups"
+      password: "backups"
+      upload-path: './storage-backups'

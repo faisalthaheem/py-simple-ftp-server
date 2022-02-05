@@ -1,0 +1,5 @@
+venv/
+temp-storage/
+*.log
+*.md
+LICENSE
