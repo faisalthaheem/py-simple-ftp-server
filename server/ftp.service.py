@@ -125,7 +125,7 @@ def main():
         handler = MyHandler
         handler.authorizer = authorizer
 
-        server = FTPServer(('0.0.0.0', 2121), handler)
+        server = FTPServer(('0.0.0.0', config['server_port']), handler)
         server.serve_forever()
     except:
         logger.error("An error occurred: ", exc_info=True)

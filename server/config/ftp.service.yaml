@@ -1,10 +1,12 @@
 dev:
+  server_port: 2121
   accounts:
     - username: "backups"
       password: "backups"
       upload-path: './storage-backups'
 
 prod:
+  server_port: 2121
   accounts:
     - username: "backups"
       password: "backups"
